@@ -1,0 +1,93 @@
+/*A free products display templaate by http://www.jquery-az.com/
+/* Typography
+----------------------------------------------------------------------------- */
+
+.outdiv{
+    background-color:#D3C2BC !important;
+}
+img {
+	display: block;
+	max-width:auto;
+	height:70%;
+
+}
+
+.rotprod{
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+     
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+     
+    overflow:hidden;
+    border:0px solid;
+    text-align:right;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+    }  
+ .spe-prods {
+    float: left;
+    width: 32%;
+    text-align: center;
+    margin-bottom: : 5%;
+    margin-top: 2%;
+    margin-right: 1%;
+
+   
+}
+
+
+.mainbox {
+    border-radius: 25px;
+    background: rgba(82,174,230,0.7);
+    font-family: "Merienda";
+    font-size: 11px;
+    height:250px;
+    padding:2em;
+}
+
+	/**responsive**/
+
+@media(max-width:991px){
+.spe-prods {
+    float: left;
+    width: 32%;
+}
+.spe-prods-table {
+    margin: 5% auto 0 auto;
+    width: 98%;
+}
+
+@media(max-width:640px){
+.spe-prods {
+    float: left;
+    width: 49%;
+}
+
+
+.spe-prods {
+    width: 50%;
+    margin-left:40px;
+    width: 250px;
+}
+}
+@media(max-width:320px){
+.spe-prods {
+    
+    margin-left:-50px;
+    width: 250px;
+    
+}
+
+
+
+
+
+}
